@@ -19,7 +19,8 @@ function App() {
       dispatch(setDataProduct(resData))
     })()
   },[])
-
+  
+  console.log(process.env.REACT_APP_SERVER_DOMIN)
   
   return (
     <>
